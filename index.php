@@ -110,7 +110,7 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
     document.addEventListener("DOMContentLoaded", function() {
-        const apiKey = 'm46OGW48Vuo9MZaREQOdEXdRw6mFM9z1nj0WcdN8LMs'; // Replace with your Unsplash API key
+        const apiKey = 'XYZ'; // Replace with your Unsplash API key
         const apiUrl = `https://api.unsplash.com/photos/random?count=3&query=car&client_id=${apiKey}`;
         const carouselInner = document.getElementById('carousel-inner');
         const carouselIndicators = document.getElementById('carousel-indicators');
